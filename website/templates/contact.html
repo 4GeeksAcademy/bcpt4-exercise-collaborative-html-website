@@ -1,20 +1,32 @@
 <!-- your html code here -->
-<div class="contact.html">
-    <div class="heading fs-2 fw-bold" style="text-start">
+<div class="container">
+    <div class="Header fs-2 fw-bold" style="text-start">
         <h1>Contact</h1>
     </div>
     <div class="contact-info">
         <p>Until the ullamcorper there is no fear of the author fringilla. This is always the gateway to success. It is a great opportunity to pursue a career or a career. A good deal of protein, terrain and running.
     </div>
-    <div class="row-1">
-        <div class="col"> 
-             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-             <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+    <!--forms-->
+
+    <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Your E-mail</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
         </div>
-        <div class="col">
-             <label for="exampleFormControlTextarea1" class="col-form-label">Your message</label>
-             <textarea class="col-form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Your message</label>
+          <div class="col-sm-10">          
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your message here..."></textarea>
+          </div>
         </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button">Button</button>
+          </div>
         
-    </div>
+       
+    </form>
+    
 </div>
+  

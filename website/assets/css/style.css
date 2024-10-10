@@ -1,3 +1,9 @@
 body{
     background: #BDBDBD;
 }
+.form-horizontal{
+    padding:20px;
+    background-color: lightgray;
+    border:solid black;
+    margin:20px;
+  }
