@@ -6,4 +6,11 @@ body{
     background-color: lightgray;
     border:solid black;
     margin:20px;
+  }
+  .tagline{
+    background-image: url("/website/assets/img/bg.jpg");
+    height:80vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top:-300px;
 }
