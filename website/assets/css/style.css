@@ -7,5 +7,15 @@ body{
     border:solid black;
     margin:20px;
   }
+<<<<<<< HEAD
 
   
+=======
+  .tagline{
+    background-image: url("/website/assets/img/bg.jpg");
+    height:80vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top:-300px;
+}
+>>>>>>> 2be375d5adc3afd3f8031813ea3217b61e51c23f
